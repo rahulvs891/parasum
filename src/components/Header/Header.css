@@ -1,0 +1,74 @@
+.header {
+    background-color: #ffffff;
+    margin: 0;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    padding-right: 4rem;
+}
+
+.ellipse {
+    border-radius: 50%;
+    position: relative;
+    height: 10rem;
+    width: 12rem;
+    margin: 0;
+    top: 3rem;
+    background: linear-gradient(187.13deg, #d1d1d1 -88.95%, rgba(204, 89, 144, 0) 44.62%);
+    transform: rotate(-22.97deg);
+}
+.motto {
+    font-size:4rem;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.motto span{
+    font-size: 5rem;
+    color: #6f6f6f;
+}
+.quote{
+    font-family: 'Poppins', sans-serif;
+    color:#504E4E;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+@media (max-width: 768px) {
+    
+    .motto{
+        font-size: 2.5rem;
+    }
+    .motto span{
+        font-size: 3rem;
+    }
+    .quote{
+        font-size: 0.8rem;
+    }
+        .image-container {
+            margin-block: 3rem;
+        }
+}
+
+@media (max-width: 576px) {
+    .motto{
+        font-size: 1rem;
+    }
+    .motto span{
+        font-size: 2rem;
+    }
+    
+    .motto {
+    font-size: 2rem;
+    }
+    .quote {
+    font-size: 0.8rem;
+    }
+    .ellipse{
+        top:1rem;
+        left: 0;
+        width: 150px;
+    }
+    .header {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+}
+}

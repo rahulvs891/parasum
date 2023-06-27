@@ -1,0 +1,27 @@
+.menu .choice{
+    border-radius: 0;
+    height: 100%;
+    padding: 2rem;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    font-weight: 500;
+    background-color:#252525;
+}
+.menu .choice:hover{
+    background-color: #ffffff;
+    color: black;
+}
+.menu .choice #icon{
+    font-size: 2rem;
+}
+.catagoryrow{
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 576px) {
+    .menu .choice{
+        font-size: 0.7rem;
+        padding-inline: 1rem;
+    }
+}

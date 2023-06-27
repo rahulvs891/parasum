@@ -1,0 +1,41 @@
+.leftcard {
+    width: 100%;
+    height: 60vh;
+    background-color: #252525;
+}
+.leftcard .left-heading{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.rightimage{
+    position: relative;
+    right: -25%;
+}
+.rightcard{
+    height: 60vh;
+    background-color: #ededed;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.appimage1{
+    width:100%;
+}
+@media (max-width: 576px){
+    .leftcard{
+        height: 50vh;
+    }
+    .leftcard .left-heading{
+    font-size: 1rem;
+    font-weight: 500;
+}
+    .rightcard{
+        height: 50vh;
+    }
+    .rightcard div{
+        font-size: 1.2rem;
+    }
+    .cardbutton{
+        padding:0.5rem;
+        font-size: 1rem;
+    }
+}

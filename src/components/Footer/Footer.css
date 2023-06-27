@@ -1,0 +1,42 @@
+.footer{
+    background-color: black;
+}
+.footer h5{
+    font-size: 0.7rem;
+}
+.copyright{
+    font-size: 0.8rem;
+}
+.footerlogo{
+    width: 9rem;
+    height: 2.5rem;
+}
+.footer li{
+        font-size: 0.8rem;
+}
+.social {
+    font-size: 1.5rem;
+}
+.icon{
+    position: absolute;
+    right: 0;
+    margin-right: 2rem;
+    z-index: 10;
+    width:14rem;
+    height: 7rem;
+}
+@media only screen and (max-width: 768px) {
+    .footer h5{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .footer li{
+        font-size: 0.6rem;
+    }
+    .footer .copyright{
+        font-size: 0.5rem;
+    }
+    .footerLogo{
+        width: 6rem;
+    }
+}
